@@ -1,10 +1,12 @@
 from app.rag.loader import load_documents
 from app.rag.splitter import split_text
 from app.rag.embeddings import create_embedding
-from app.rag.vector_store import add_document
+from app.rag.vector_store import add_document, reset_collection
 
 
 def ingest_documents():
+    reset_collection()
+
     documents = load_documents()
 
     chunk_counter = 0

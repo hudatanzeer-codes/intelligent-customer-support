@@ -24,3 +24,16 @@ def search_documents(query_embedding, top_k=3):
     )
 
     return results
+
+
+def reset_collection():
+    global collection
+
+    try:
+        client.delete_collection(name="customer_support_knowledge")
+    except Exception:
+        pass
+
+    collection = client.get_or_create_collection(
+        name="customer_support_knowledge"
+    )
