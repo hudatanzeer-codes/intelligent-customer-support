@@ -1,0 +1,7 @@
+Account FAQ
+
+Customers can reset their password using the Forgot Password option.
+
+Customers can update their profile information from account settings.
+
+If an account is locked, customer support can help restore access.

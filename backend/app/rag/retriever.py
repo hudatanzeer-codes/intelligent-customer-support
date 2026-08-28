@@ -14,7 +14,7 @@ def retrieve_documents(query, top_k=3):
 
 
 if __name__ == "__main__":
-    query = "How long does a refund take?"
+    query = "How long does delivery take?"
 
     results = retrieve_documents(query)
 

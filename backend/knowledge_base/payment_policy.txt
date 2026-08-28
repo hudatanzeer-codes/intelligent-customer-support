@@ -1,0 +1,11 @@
+Payment Policy
+
+If a payment fails, customers should wait a few minutes
+and retry the transaction.
+
+If money is deducted but the order is not created,
+the customer should contact customer support.
+
+Payment-related issues may require manual verification.
+
+Customers should provide the transaction ID when contacting support.
